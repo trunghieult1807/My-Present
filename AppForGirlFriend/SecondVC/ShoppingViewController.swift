@@ -15,17 +15,17 @@ class ShoppingViewController: UIViewController {
     @IBAction func doActionSheet(_ sender: AnyObject) {
         let alertController=UIAlertController(title: "Search", message: "Choose a place", preferredStyle: UIAlertController.Style.actionSheet)
         
-        let taobaoAction=UIAlertAction(title: "Van Hanh Mall", style: UIAlertAction.Style.default, handler: {(alertAction:UIAlertAction)in self.website="http://www.taobao.com"
+        let taobaoAction=UIAlertAction(title: "Van Hanh Mall", style: UIAlertAction.Style.default, handler: {(alertAction:UIAlertAction)in self.website="https://vanhanhmall.com"
             self.openWeb(website: self.website)
             }
         )
         
-        let jdAction=UIAlertAction(title: "CoopMart", style: UIAlertAction.Style.default, handler: {(alertAction:UIAlertAction)in self.website="http://www.jd.cn"
+        let jdAction=UIAlertAction(title: "H&M", style: UIAlertAction.Style.default, handler: {(alertAction:UIAlertAction)in self.website="https://www.hm.com/entrance.ahtml?orguri=%2F"
             self.openWeb(website: self.website)
             }
         )
         
-        let  jmypAction=UIAlertAction(title: "Aeon", style: UIAlertAction.Style.default, handler: {(alertAction:UIAlertAction)in self.website="http://www.jumei.com"
+        let  jmypAction=UIAlertAction(title: "Aeon", style: UIAlertAction.Style.default, handler: {(alertAction:UIAlertAction)in self.website="https://www.aeon.com.vn"
             self.openWeb(website: self.website)
         })
         let cancelAction=UIAlertAction(title: "Cancel", style: UIAlertAction.Style.cancel, handler: nil)

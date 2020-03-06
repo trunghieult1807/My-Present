@@ -11,11 +11,12 @@
 		1894E27C2412386400A9006D /* QuoteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894E2792412386400A9006D /* QuoteController.swift */; };
 		1894E27D2412386400A9006D /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894E27A2412386400A9006D /* FirstViewController.swift */; };
 		1894E2872412724300A9006D /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1894E2862412724300A9006D /* MyTabBarController.swift */; };
-		1894E28D2412A8C300A9006D /* quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E28A2412A8C200A9006D /* quote.mp3 */; };
-		1894E28E2412A8C300A9006D /* invisible.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E28B2412A8C200A9006D /* invisible.mp3 */; };
-		1894E28F2412A8C300A9006D /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E28C2412A8C300A9006D /* intro.mp3 */; };
-		1894E2912412ADA500A9006D /* relax.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E2902412ADA500A9006D /* relax.mp3 */; };
-		1894E2932412B4AA00A9006D /* longcao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E2922412B4AA00A9006D /* longcao.mp3 */; };
+		1894E29A2412BB7500A9006D /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E2942412BB7500A9006D /* intro.mp3 */; };
+		1894E29B2412BB7500A9006D /* quote.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E2952412BB7500A9006D /* quote.mp3 */; };
+		1894E29C2412BB7500A9006D /* beautiful.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E2962412BB7500A9006D /* beautiful.mp3 */; };
+		1894E29D2412BB7500A9006D /* invisible.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E2972412BB7500A9006D /* invisible.mp3 */; };
+		1894E29E2412BB7500A9006D /* longcao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E2982412BB7500A9006D /* longcao.mp3 */; };
+		1894E29F2412BB7500A9006D /* relax.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1894E2992412BB7500A9006D /* relax.mp3 */; };
 		4319CC051DF3CB5F001A8234 /* DataChooserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4319CC041DF3CB5F001A8234 /* DataChooserViewController.swift */; };
 		432910621DF2701500264D8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432910611DF2701500264D8F /* AppDelegate.swift */; };
 		432910641DF2701500264D8F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 432910631DF2701500264D8F /* SecondViewController.swift */; };
@@ -37,11 +38,12 @@
 		1894E2792412386400A9006D /* QuoteController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuoteController.swift; sourceTree = "<group>"; };
 		1894E27A2412386400A9006D /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		1894E2862412724300A9006D /* MyTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
-		1894E28A2412A8C200A9006D /* quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quote.mp3; sourceTree = "<group>"; };
-		1894E28B2412A8C200A9006D /* invisible.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = invisible.mp3; sourceTree = "<group>"; };
-		1894E28C2412A8C300A9006D /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
-		1894E2902412ADA500A9006D /* relax.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = relax.mp3; sourceTree = "<group>"; };
-		1894E2922412B4AA00A9006D /* longcao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = longcao.mp3; sourceTree = "<group>"; };
+		1894E2942412BB7500A9006D /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = intro.mp3; path = Music/intro.mp3; sourceTree = "<group>"; };
+		1894E2952412BB7500A9006D /* quote.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = quote.mp3; path = Music/quote.mp3; sourceTree = "<group>"; };
+		1894E2962412BB7500A9006D /* beautiful.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beautiful.mp3; path = Music/beautiful.mp3; sourceTree = "<group>"; };
+		1894E2972412BB7500A9006D /* invisible.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = invisible.mp3; path = Music/invisible.mp3; sourceTree = "<group>"; };
+		1894E2982412BB7500A9006D /* longcao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = longcao.mp3; path = Music/longcao.mp3; sourceTree = "<group>"; };
+		1894E2992412BB7500A9006D /* relax.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = relax.mp3; path = Music/relax.mp3; sourceTree = "<group>"; };
 		4319CC041DF3CB5F001A8234 /* DataChooserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataChooserViewController.swift; sourceTree = "<group>"; };
 		4329105E1DF2701500264D8F /* My Present.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Present.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		432910611DF2701500264D8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,11 +105,12 @@
 		432910551DF2701400264D8F = {
 			isa = PBXGroup;
 			children = (
-				1894E2922412B4AA00A9006D /* longcao.mp3 */,
-				1894E2902412ADA500A9006D /* relax.mp3 */,
-				1894E28C2412A8C300A9006D /* intro.mp3 */,
-				1894E28B2412A8C200A9006D /* invisible.mp3 */,
-				1894E28A2412A8C200A9006D /* quote.mp3 */,
+				1894E2962412BB7500A9006D /* beautiful.mp3 */,
+				1894E2942412BB7500A9006D /* intro.mp3 */,
+				1894E2972412BB7500A9006D /* invisible.mp3 */,
+				1894E2982412BB7500A9006D /* longcao.mp3 */,
+				1894E2952412BB7500A9006D /* quote.mp3 */,
+				1894E2992412BB7500A9006D /* relax.mp3 */,
 				432910601DF2701500264D8F /* AppForGirlFriend */,
 				4329105F1DF2701500264D8F /* Products */,
 				F8D72F933C0DDE0DBB73A74A /* Pods */,
@@ -218,13 +221,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4329106C1DF2701500264D8F /* LaunchScreen.storyboard in Resources */,
-				1894E28D2412A8C300A9006D /* quote.mp3 in Resources */,
-				1894E2912412ADA500A9006D /* relax.mp3 in Resources */,
-				1894E28E2412A8C300A9006D /* invisible.mp3 in Resources */,
-				1894E2932412B4AA00A9006D /* longcao.mp3 in Resources */,
+				1894E29F2412BB7500A9006D /* relax.mp3 in Resources */,
 				432910691DF2701500264D8F /* Assets.xcassets in Resources */,
+				1894E29D2412BB7500A9006D /* invisible.mp3 in Resources */,
 				432910671DF2701500264D8F /* Main.storyboard in Resources */,
-				1894E28F2412A8C300A9006D /* intro.mp3 in Resources */,
+				1894E29E2412BB7500A9006D /* longcao.mp3 in Resources */,
+				1894E29B2412BB7500A9006D /* quote.mp3 in Resources */,
+				1894E29C2412BB7500A9006D /* beautiful.mp3 in Resources */,
+				1894E29A2412BB7500A9006D /* intro.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
