@@ -1,0 +1,6 @@
+framework module Pods_AppForGirlFriend {
+  umbrella header "Pods-AppForGirlFriend-umbrella.h"
+
+  export *
+  module * { export * }
+}
