@@ -42,6 +42,9 @@ class QuoteController: UIViewController {
     
     @IBAction func nextTapped(_ sender: Any) {
         player?.stop()
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.success)
+
     }
     
     

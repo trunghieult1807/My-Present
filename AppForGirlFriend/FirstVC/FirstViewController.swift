@@ -10,7 +10,7 @@ import UIKit
 import AVFoundation
 class FirstViewController: UIViewController, UITabBarControllerDelegate {
     var player: AVAudioPlayer?
-
+    
     @IBOutlet weak var textField: UILabel!
     @IBOutlet weak var button: UIButton!
     
@@ -23,29 +23,36 @@ class FirstViewController: UIViewController, UITabBarControllerDelegate {
         textField.isHidden = true
         setupPlayer()
         
-
+        
     }
     
     override func viewDidAppear(_ animated: Bool) {
-           super.viewDidAppear(animated)
-           guard let player = player else { return }
-           player.play()
+        super.viewDidAppear(animated)
+        guard let player = player else { return }
+        player.play()
         tabBarController?.delegate = self
-           //timer = Timer.scheduledTimer(timeInterval: 0.0001, target: self, selector: #selector(self.updatespotify), userInfo: nil, repeats: true)
-       }
+        //timer = Timer.scheduledTimer(timeInterval: 0.0001, target: self, selector: #selector(self.updatespotify), userInfo: nil, repeats: true)
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.success)
+
+    }
     
     @IBAction func nextTapped(_ sender: Any) {
         player?.stop()
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.success)
     }
     
-
+    
     
     
     @IBAction func buttonPressed(_ sender: Any) {
         button.isHidden = true
         textField.isHidden = false
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.success)
         textField.setTextWithTypeAnimation(typedText: "I'M SHY TO SPEAK ABOUT LOVE, BUT I JUST WANT TO TELL YOU THAT TO BE LOVED BY YOU IS MY JOY, YOUR DREAM IS MY LIFE AND MY DREAM IS TO BE WITH YOU ETERNALLY!!!", characterDelay: 13)
-                DispatchQueue.main.asyncAfter(deadline: .now() + 21) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 21) {
             // your code here
             self.nextBtn.alpha = 0.5
         }

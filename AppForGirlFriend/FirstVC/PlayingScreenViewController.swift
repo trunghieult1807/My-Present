@@ -90,6 +90,9 @@ class PlayingScreenViewController: UIViewController {
     
     @IBAction func backTapped(_ sender: Any) {
         player?.stop()
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.success)
+
     }
     
     

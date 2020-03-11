@@ -18,6 +18,7 @@ class SecondViewController: UIViewController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         setupPlayer()
         
         let rect = CGRect(x: 0.0, y: -70.0, width: view.bounds.width,height: 50.0)
@@ -72,6 +73,9 @@ class SecondViewController: UIViewController, UITabBarControllerDelegate {
     override func viewDidAppear(_ animated: Bool) {
         player?.play()
         tabBarController?.delegate = self
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.success)
+
     }
     
     override func didReceiveMemoryWarning() {

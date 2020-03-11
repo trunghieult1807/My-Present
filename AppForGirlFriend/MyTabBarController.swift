@@ -15,6 +15,11 @@ class MyTabBarController: UITabBarController, UITabBarControllerDelegate {
 
         // tell our UITabBarController subclass to handle its own delegate methods
         self.delegate = self
+        
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        let generator = UINotificationFeedbackGenerator()
+        generator.notificationOccurred(.success)
     }
 
     // called whenever a tab button is tapped
@@ -22,8 +27,13 @@ class MyTabBarController: UITabBarController, UITabBarControllerDelegate {
 
         if viewController is FirstViewController {
             print("First tab")
+            let generator = UINotificationFeedbackGenerator()
+            generator.notificationOccurred(.success)
+
         } else if viewController is SecondViewController {
             print("Second tab")
+            let generator = UINotificationFeedbackGenerator()
+            generator.notificationOccurred(.success)
         }
     }
 }
